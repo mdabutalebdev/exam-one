@@ -21,9 +21,13 @@
      <!-- custom css start -->
      <style type="text/tailwindcss">
       @theme {
+        /* color */
         --color-btnColor: #00B207;
         --color-HeadingColor: #1A1A1A;
         --color-SecondaryColor: #808080;
+
+        /* font */
+        --font-poppins:"Poppins", sans-serif;
       }
     </style>
     <!-- custom css end -->
@@ -32,11 +36,12 @@
     
     <div class="flex items-center justify-center h-screen bg-gray-100">
       <div class="bg-white p-8 rounded-lg shadow-lg w-96">
-        <h1 class="text-2xl font-bold text-center mb-6">Welcome to My Page</h1>
-        <p class="text-gray-600 text-center mb-4">This is a simple page using Tailwind CSS.</p>
+        <h1 class="text-2xl font-bold font-poppins text-center mb-6">Welcome to My Page</h1>
+        <p class="text-gray-600 font-poppins text-center mb-4">This is a simple page using Tailwind CSS.</p>
         <button class="w-full bg-btnColor text-white py-2 rounded hover:bg-green-700 transition duration-300">
           Click Me
         </button>
+      
       </div>
     </div>
   </body>
